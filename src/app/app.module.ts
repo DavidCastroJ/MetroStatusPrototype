@@ -1,3 +1,4 @@
+import { StationCommentsPage } from './../pages/station-comments/station-comments';
 import { StationDetailsPage } from './../pages/station-details/station-details';
 import { MapPage } from './../pages/map/map';
 import { ProfilePage } from './../pages/profile/profile';
@@ -19,7 +20,8 @@ import { AuthProvider } from '../providers/auth/auth';
     TabsPage,
     ProfilePage,
     MapPage,
-    StationDetailsPage
+    StationDetailsPage,
+    StationCommentsPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { AuthProvider } from '../providers/auth/auth';
     TabsPage,
     ProfilePage,
     MapPage,
-    StationDetailsPage
+    StationDetailsPage,
+    StationCommentsPage
   ],
   providers: [
     StatusBar,

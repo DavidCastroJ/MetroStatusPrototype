@@ -1,5 +1,6 @@
+import { StationCommentsPage } from './../station-comments/station-comments';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ViewController, ModalController } from 'ionic-angular';
 
 /**
  * Generated class for the StationDetailsPage page.
@@ -18,7 +19,8 @@ export class StationDetailsPage {
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
-    private viewCtrl: ViewController
+    private viewCtrl: ViewController,
+    private modalCtrl: ModalController
     ) {
   }
 
@@ -28,6 +30,10 @@ export class StationDetailsPage {
 
   dismiss() {
     this.viewCtrl.dismiss();
+  }
+
+  showComments() {
+    this.modalCtrl.create(StationCommentsPage).present();
   }
 
 }
