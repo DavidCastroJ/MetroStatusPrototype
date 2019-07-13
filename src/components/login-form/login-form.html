@@ -1,0 +1,31 @@
+<!-- Generated template for the LoginFormComponent component -->
+<div>
+  <br>
+  <br>
+  <ion-row center>
+    <ion-col text-center>
+      <img src="assets/imgs/logo mejorado.png" width="125px" style="border: solid 1px gray; border-radius: 8px">
+    </ion-col>
+  </ion-row>
+  <form>
+      <ion-item>
+        <ion-label class="custom-label" floating>Correo electrónico:</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="custom-label" floating>Contraseña:</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      <br>
+      <ion-row center>
+        <ion-col text-center>
+          <button class="button custom-button text-center" ion-button center (click)="logIn()">Iniciar sesión</button>
+          <br>
+          <br>
+          <a class="custom-link">¿Olvidó su contraseña?</a>
+          <br>
+          <a class="custom-link">¿No tiene cuenta?, registrarse</a>
+        </ion-col>
+      </ion-row>
+    </form>
+  </div>

@@ -14,3 +14,56 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.custom-label {
+  color: #aaaaaa;
+  font-size: 0.8em;
+}
+
+.tabs .tabbar {
+  background-color: #5AA746;
+}
+
+.toolbar-background {
+  background-color: #5AA746;
+}
+
+.toolbar-title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.custom-background {
+  background-color: #5AA746;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.custom-text {
+  font-size: 0.9em;
+  font-weight: 350;
+}
+
+.tabs .tab-button {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.tabs .tab-button[aria-selected=true] {
+  color: #FFFFFF !important;
+  font-weight: bold;
+ }
+
+.custom-button {
+  background: #5AA746;
+  color: #ffffff;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.custom-link {
+  color: #0271AC;
+  font-weight: bold;
+  text-decoration: none;
+}
